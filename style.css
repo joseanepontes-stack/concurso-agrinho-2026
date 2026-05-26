@@ -109,3 +109,14 @@ p{
   font-size:1.5rem;
   font-weight:bold;
 }
+
+/* energia */
+.card h3{
+  margin-bottom:20px;
+  color:#333;
+}
+
+.card p{
+  color:#555;
+  margin-top:15px;
+}
