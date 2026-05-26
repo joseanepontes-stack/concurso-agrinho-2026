@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AgroBalance</title>
+
+  <!-- Conecta o CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOPO -->
+  <header>
+
+    <!-- Fazenda sustentável -->
+    <div class="lado sustentavel">
+
+      <h1>🌱 Fazenda Sustentável</h1>
+
+      <p>
+        Uso consciente da água e preservação ambiental.
+      </p>
+
+    </div>
+
+    <!-- Fazenda convencional -->
+    <div class="lado convencional">
+
+      <h1>🏭 Fazenda Convencional</h1>
+
+      <p>
+        Alto impacto ambiental e desperdício de recursos.
+      </p>
+
+    </div>
+
+  </header>
+
+  <!-- TÍTULO -->
+  <section class="titulo">
+
+    <h2>Comparação dos Sistemas</h2>
+
+  </section>
+
+  <!-- COMPARAÇÃO -->
+  <section class="comparacao">
+
+    <!-- CARD -->
+    <div class="card">
+
+      <h3>💧 Consumo de Água</h3>
+
+      <!-- Sustentável -->
+      <div class="barra-bg">
+        <div class="barra verde" data-largura="40%"></div>
+      </div>
+
+      <!-- Convencional -->
+      <div class="barra-bg">
+        <div class="barra marrom" data-largura="90%"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SIMULADOR -->
+  <section class="simulador">
+
+    <h2>🎮 Simulador</h2>
+
+    <input type="range" min="0" max="100" value="50" id="slider">
+
+    <div id="resultado">
+      Sustentabilidade Média 🌿
+    </div>
+
+  </section>
+
+  <!-- Conecta o JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
