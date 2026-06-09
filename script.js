@@ -62,24 +62,33 @@ slider.addEventListener('input', () => {
 
 });
 
+// BOTÃO SABER MAIS
+
 const btnSaberMais =
-  document.getElementById("btnSaberMais");
+document.getElementById("btnSaberMais");
 
 const conteudoExtra =
-  document.getElementById("conteudoExtra");
+document.getElementById("conteudoExtra");
 
-btnSaberMais.addEventListener("click", () => {
+if(btnSaberMais && conteudoExtra){
 
-  if(conteudoExtra.style.display === "none"){
+  btnSaberMais.addEventListener("click", () => {
 
-    conteudoExtra.style.display = "block";
-    btnSaberMais.innerHTML = "❌ Fechar";
+    if(
+      conteudoExtra.style.display === "none" ||
+      conteudoExtra.style.display === ""
+    ){
 
-  }else{
+      conteudoExtra.style.display = "block";
+      btnSaberMais.innerHTML = "❌ Fechar";
 
-    conteudoExtra.style.display = "none";
-    btnSaberMais.innerHTML = "📖 Saber Mais";
+    }else{
 
-  }
+      conteudoExtra.style.display = "none";
+      btnSaberMais.innerHTML = "📖 Saber Mais";
 
-});
+    }
+
+  });
+
+}
