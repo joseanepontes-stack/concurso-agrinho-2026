@@ -133,7 +133,8 @@ p{
   padding:50px;
 }
 
-#btnSaberMais{
+#btnSaberMais
+#btnFazendaParana{
   background:#2e7d32;
   color:white;
   border:none;
@@ -144,15 +145,17 @@ p{
   transition:0.3s;
 }
 
-#btnSaberMais:hover{
-  transform:scale(1.05);
+#btnSaberMais:hover,
+#btnFazendaParana:hover{
+transform:scale(1.05);
 }
 
-#conteudoExtra{
-  max-width:900px;
-  margin:30px auto;
-  background:white;
-  padding:30px;
-  border-radius:20px;
-  box-shadow:0 0 15px rgba(0,0,0,0.1);
+#conteudoExtra,
+#conteudoFazendaParana{
+max-width:900px;
+margin:30px auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
 }
