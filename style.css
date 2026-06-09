@@ -127,3 +127,32 @@ p{
   margin-bottom:10px;
   color:#555;
 }
+
+.informacoes{
+  text-align:center;
+  padding:50px;
+}
+
+#btnSaberMais{
+  background:#2e7d32;
+  color:white;
+  border:none;
+  padding:15px 30px;
+  font-size:18px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#btnSaberMais:hover{
+  transform:scale(1.05);
+}
+
+#conteudoExtra{
+  max-width:900px;
+  margin:30px auto;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
