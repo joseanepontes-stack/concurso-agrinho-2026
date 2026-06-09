@@ -106,7 +106,7 @@ if(btnFazendaParana && conteudoFazendaParana){
 
 btnFazendaParana.addEventListener("click", () => {
 
-```
+
 if(
   conteudoFazendaParana.style.display === "none" ||
   conteudoFazendaParana.style.display === ""
@@ -125,8 +125,6 @@ if(
   "📖 FAZENDA SUSTENTÁVEL NO PARANÁ";
 
 }
-```
-
 });
 
 }
