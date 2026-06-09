@@ -61,3 +61,25 @@ slider.addEventListener('input', () => {
   }
 
 });
+
+const btnSaberMais =
+  document.getElementById("btnSaberMais");
+
+const conteudoExtra =
+  document.getElementById("conteudoExtra");
+
+btnSaberMais.addEventListener("click", () => {
+
+  if(conteudoExtra.style.display === "none"){
+
+    conteudoExtra.style.display = "block";
+    btnSaberMais.innerHTML = "❌ Fechar";
+
+  }else{
+
+    conteudoExtra.style.display = "none";
+    btnSaberMais.innerHTML = "📖 Saber Mais";
+
+  }
+
+});
