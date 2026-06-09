@@ -92,3 +92,4 @@ if(btnSaberMais && conteudoExtra){
   });
 
 }
+console.log("JavaScript carregado!");
