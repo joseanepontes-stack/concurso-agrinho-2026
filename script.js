@@ -94,37 +94,36 @@ if(btnSaberMais && conteudoExtra){
 }
 console.log("JavaScript carregado!");
 
-// BOTÃO FAZENDA PARANÁ
+// BOTÃO FAZENDA SUSTENTÁVEL NO PARANÁ
 
-const btnFazendaParana =
+document.addEventListener("DOMContentLoaded", () => {
+const btn =
 document.getElementById("btnFazendaParana");
-
-const conteudoFazendaParana =
+const conteudo =
 document.getElementById("conteudoFazendaParana");
+if(btn && conteudo){
+btn.addEventListener("click", () => {
 
-if(btnFazendaParana && conteudoFazendaParana){
+  if(
+    conteudo.style.display === "none" ||
+    conteudo.style.display === ""
+  ){
 
-btnFazendaParana.addEventListener("click", () => {
+    conteudo.style.display = "block";
+    btn.innerHTML = "❌ Fechar";
 
+  }else{
 
-if(
-  conteudoFazendaParana.style.display === "none" ||
-  conteudoFazendaParana.style.display === ""
-){
+    conteudo.style.display = "none";
+    btn.innerHTML =
+    "📖 FAZENDA SUSTENTÁVEL NO PARANÁ";
 
-  conteudoFazendaParana.style.display = "block";
-  btnFazendaParana.innerHTML =
-  "❌ Fechar";
+  }
 
-}else{
-
-  conteudoFazendaParana.style.display =
-  "none";
-
-  btnFazendaParana.innerHTML =
-  "📖 FAZENDA SUSTENTÁVEL NO PARANÁ";
-
-}
 });
 
+
 }
+
+});
+
