@@ -118,7 +118,7 @@ btnFazendaParana.innerHTML = "❌ Fechar";
 
 conteudoFazendaParana.style.display = "none";
 btnFazendaParana.innerHTML =
-"📖 FAZENDA SUSTENTÁVEL NO PARANÁ";
+"💡 FAZENDA SUSTENTÁVEL NO PARANÁ";
 
 }
 
